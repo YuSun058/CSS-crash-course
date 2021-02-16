@@ -1,3 +1,9 @@
+/* * means to all of the elements*/
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
 h1 {
   color: green;
 }
@@ -9,5 +15,37 @@ body {
   font-size: 16px;
   font-weight: normal;
 
-  line-height: 1cm;
+  line-height: 30px;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.box-1 {
+  background-color: #333;
+  color: #fff;
+
+  /* border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid; */
+
+  /* Same as above */
+  border: 5px red solid;
+  border-width: 3px;
+  border-bottom-width: 10px;
+  border-top-style: dotted;
+
+  /* padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px; */
+
+  /*Same as above*/
+  padding: 20px;
+  margin-top: 20px;
+  margin: 20px 0;
 }
